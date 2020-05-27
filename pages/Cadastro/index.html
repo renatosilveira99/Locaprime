@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <title>Locaprime</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="nav">
+          <label><a href="../../index.html">←</a></label>
+          <span>Cadastro</span>
+        </div>
+
+        <form>
+          <label for="nome">Nome</label>
+          <input type="nome" id="nome" />
+
+          <label for="endereco">Endereço</label>
+          <input type="endereco" id="endereco" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+
+          <label for="cidade">Cidade</label>
+          <input type="cidade" id="cidade" />
+
+          <label for="estado">Estado</label>
+          <select id="estados" name="estados">
+            <option value="São Paulo">São Paulo</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Paraná">Paraná</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+          </select>
+
+          <label for="sexo">Sexo</label>
+          <div class="radio">
+            <input type="radio" name="gender" value="male" />Masculino
+            <input type="radio" name="gender" value="female" />Feminino
+          </div>
+
+          <span id="pick">Escolha os gêneros que você mais gosta!</span>
+
+          <div class="picks">
+            <input type="checkbox" name="acao" id="acao" />Ação
+            <input type="checkbox" name="acao" id="acao" />Aventura
+            <input type="checkbox" name="acao" id="acao" />Comédia
+          </div>
+
+          <div class="picks">
+            <input type="checkbox" name="acao" id="acao" />Romance
+            <input type="checkbox" name="acao" id="acao" />Terror
+            <input type="checkbox" name="acao" id="acao" />Drama
+          </div>
+
+          <label for="usuario">Usuário</label>
+          <input type="usuario" id="usuario" />
+
+          <label for="senha">Senha</label>
+          <input type="senha" id="senha" />
+
+          <div class="buttons">
+            <button type="submit">Limpar</button>
+            <button type="submit">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="background">
+        <img src="../../assets/cinema.png" alt="Fundo Cinema" />
+      </div>
+    </div>
+  </body>
+</html>

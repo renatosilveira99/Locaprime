@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.menu {
+  list-style: none;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.menu li {
+  color: black;
+  border: 1px solid black;
+  flex: 1;
+  text-align: center;
+  padding: 4px 0 4px 0;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 18px;
+  justify-content: center;
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+#selected a {
+  color: white;
+}
+
+#selected {
+  background-color: black;
+  color: white;
+}
+
+.menu li:hover {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  height: 65px;
+}
+
+.logo img {
+  margin-left: 20px;
+  height: 80px;
+  width: 80px;
+  margin-top: -15px;
+}
+
+.logo h1 {
+  font-size: 50px;
+}
+
+.form {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  margin-top: 10px;
+  height: 450px;
+  width: 1120px;
+  padding: 0 15px 0 15px;
+  justify-content: center;
+}
+
+.form label {
+  align-self: flex-start;
+  font-size: 22px;
+  margin-left: 385px;
+}
+
+.form input {
+  height: 25px;
+  font-size: 18px;
+  width: 350px;
+  padding-left: 5px;
+}
+
+.form textarea {
+  width: 335px;
+  height: 180px;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.form button {
+  margin-top: 5px;
+  font-size: 22px;
+  background-color: #c53030;
+  font-size: 20px;
+  height: 40px;
+  width: 350px;
+  border-radius: 10px;
+  border: 1px solid;
+  color: #ffffff;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid white;
+  align-self: center;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.info {
+  display: flex;
+
+  flex-direction: row;
+  width: 800px;
+  height: 200px;
+  color: white;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.info img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.info span {
+  font-size: 25px;
+}
+
+.info ul {
+  align-self: center;
+  list-style: none;
+}
+
+.info li {
+  margin: 20px 0;
+  font-size: 20px;
+}
